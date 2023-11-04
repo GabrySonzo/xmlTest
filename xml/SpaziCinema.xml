@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="SpaziCinema.xsl"?>
+
+<SpaziCinema>
+
+    <cinema>
+        <comune>ROMA</comune>
+        <provincia sigla = 'rm'>
+            <NOME>CITTA' METROPOLITANA DI ROMA CAPITALE</NOME>
+            <classe nome = 'Gab'></classe>
+        </provincia>
+        <nome>NUOVO SACHER</nome>
+        <tipo_sala>SALA CINEMATOGRAFICA</tipo_sala>
+        <posti>314</posti>
+        <indirizzo>VIA L. ASCIANGHI, 1</indirizzo>
+        <telefono>06 5818116</telefono>
+        <longitudine>12.472421</longitudine>
+        <latitudine>41.88447</latitudine>
+    </cinema>
+
+    <cinema>
+        <comune>ACQUAPENDENTE</comune>
+        <provincia sigla = 'vt'>
+            <NOME>VITERBO</NOME>
+            <classe nome = 'Feb'></classe>
+        </provincia>
+        <nome>OLIMPYA</nome>
+        <tipo_sala>SALA CINEMATOGRAFICA</tipo_sala>
+        <posti>166</posti>
+        <indirizzo>VIA CANTORRIVO, 5</indirizzo>
+        <telefono>0763 730052</telefono>
+        <longitudine>11.865366</longitudine>
+        <latitudine>42.74467</latitudine>
+    </cinema>
+
+    <cinema>
+        <comune>ANZIO</comune>
+        <provincia sigla = 'rm'>
+            <NOME>CITTA' METROPOLITANA DI ROMA CAPITALE</NOME>
+            <classe nome = 'Doc'></classe>
+        </provincia>
+        <nome>ASTORIA</nome>
+        <tipo_sala>MULTISALA</tipo_sala>
+        <posti>409</posti>
+        <indirizzo>VIA GIACOMO MATTEOTTI, 8</indirizzo>
+        <telefono>06 9831587</telefono>
+        <longitudine>12.628263</longitudine>
+        <latitudine>41.448255</latitudine>
+    </cinema>
+
+    <cinema>
+        <comune>VITERBO</comune>
+        <provincia sigla = 'vt'>
+            <NOME>VITERBO</NOME>
+            <classe nome = 'Fan'></classe>
+        </provincia>
+        <nome>TRENTO</nome>
+        <tipo_sala>SALA CINEMATOGRAFICA</tipo_sala>
+        <posti>172</posti>
+        <indirizzo>PIAZZA DEL SANTUARIO, 51/a</indirizzo>
+        <telefono>0761 307759</telefono>
+        <longitudine>12.129198</longitudine>
+        <latitudine>42.430101</latitudine>
+    </cinema>
+
+</SpaziCinema>

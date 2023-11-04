@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="SpaziCinema">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="cinema" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="comune" type="xs:string"/>
+              <xs:element name="provincia">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="NOME" type="xs:string"/>
+                    <xs:element name="classe">
+                      <xs:complexType>
+                          <xs:attribute name="nome" type="xs:string" use="required"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="sigla" type="xs:string" use="required"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="nome" type="xs:string"/>
+              <xs:element name="tipo_sala" type="xs:string"/>
+              <xs:element name="posti" type="xs:integer"/>
+              <xs:element name="indirizzo" type="xs:string"/>
+              <xs:element name="telefono" type="xs:string"/>
+              <xs:element name="longitudine" type="xs:decimal"/>
+              <xs:element name="latitudine" type="xs:decimal"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

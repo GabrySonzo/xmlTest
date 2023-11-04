@@ -1,0 +1,17 @@
+<!DOCTYPE SpaziCinema [
+  <!ELEMENT SpaziCinema (cinema+)>
+  <!ELEMENT cinema (comune, provincia, nome, tipo_sala, posti, indirizzo, telefono, longitudine, latitudine)>
+  <!ELEMENT comune (#PCDATA)>
+  <!ELEMENT provincia (NOME, classe)>
+  <!ELEMENT NOME (#PCDATA)>
+  <!ELEMENT nome (#PCDATA)>
+  <!ELEMENT tipo_sala (#PCDATA)>
+  <!ELEMENT posti (#PCDATA)>
+  <!ELEMENT indirizzo (#PCDATA)>
+  <!ELEMENT telefono (#PCDATA)>
+  <!ELEMENT longitudine (#PCDATA)>
+  <!ELEMENT latitudine (#PCDATA)>
+  <!ELEMENT classe (#PCDATA)>
+  <!ATTLIST provincia sigla CDATA #REQUIRED>
+  <!ATTLIST classe nome CDATA "0">
+]>
